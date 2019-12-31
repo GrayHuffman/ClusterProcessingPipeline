@@ -93,7 +93,7 @@ Write-Output "Post Automated Search Script Run"
 # Getting remote directory structure
 ########
 
-$mobaPath_csv_pull = "scp huffman.r@xfer.discovery.neu.edu:/scratch/huffman.r/SearchResults_forGDrive/directory_list.csv /drives/c/Users/G.Huffman/Documents/AutoClusterPipeline/"
+$mobaPath_csv_pull = "scp huffman.r@xfer.discovery.neu.edu:/home/huffman.r/directory_list.csv /drives/c/Users/G.Huffman/Documents/AutoClusterPipeline/"
 & "C:\Program Files (x86)\MobaTek\MobaXterm\MobaXterm.exe" -newtab $mobaPath_csv_pull -exitwhendone | Out-Null
 
 ########
