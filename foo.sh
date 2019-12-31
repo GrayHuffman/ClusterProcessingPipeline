@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in $(find /scratch/huffman.r/ClusterRaw -mtime -0.0625 -name "*.raw")
+for i in $(find /scratch/huffman.r/ClusterRaw -mtime -0.00625 -name "*.raw")
 do
 
 pathfree=${i##*/}
